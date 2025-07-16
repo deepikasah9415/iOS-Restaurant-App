@@ -41,7 +41,8 @@ OneBancRestaurantApp/
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/deepikasah9415/onebanc-restaurant-app.git
+   git clone https://github.com/deepikasah9415/iOS-Restaurant-App.git
+
 
 2. Open the project in Xcode.
 
