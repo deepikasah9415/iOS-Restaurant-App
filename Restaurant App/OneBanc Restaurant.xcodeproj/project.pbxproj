@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C987EDA82DCBA01E0052EC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C987ED8F2DCBA01B0052EC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C987ED962DCBA01B0052EC38;
+			remoteInfo = "OneBanc Restaurant";
+		};
+		C987EDB22DCBA01E0052EC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C987ED8F2DCBA01B0052EC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C987ED962DCBA01B0052EC38;
+			remoteInfo = "OneBanc Restaurant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C987ED972DCBA01B0052EC38 /* OneBanc Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OneBanc Restaurant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C987EDA72DCBA01E0052EC38 /* OneBanc RestaurantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneBanc RestaurantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C987EDB12DCBA01E0052EC38 /* OneBanc RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OneBanc RestaurantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C987ED992DCBA01B0052EC38 /* OneBanc Restaurant */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OneBanc Restaurant";
+			sourceTree = "<group>";
+		};
+		C987EDAA2DCBA01E0052EC38 /* OneBanc RestaurantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OneBanc RestaurantTests";
+			sourceTree = "<group>";
+		};
+		C987EDB42DCBA01E0052EC38 /* OneBanc RestaurantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OneBanc RestaurantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C987ED942DCBA01B0052EC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987EDA42DCBA01E0052EC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987EDAE2DCBA01E0052EC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C987ED8E2DCBA01B0052EC38 = {
+			isa = PBXGroup;
+			children = (
+				C987ED992DCBA01B0052EC38 /* OneBanc Restaurant */,
+				C987EDAA2DCBA01E0052EC38 /* OneBanc RestaurantTests */,
+				C987EDB42DCBA01E0052EC38 /* OneBanc RestaurantUITests */,
+				C987ED982DCBA01B0052EC38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C987ED982DCBA01B0052EC38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C987ED972DCBA01B0052EC38 /* OneBanc Restaurant.app */,
+				C987EDA72DCBA01E0052EC38 /* OneBanc RestaurantTests.xctest */,
+				C987EDB12DCBA01E0052EC38 /* OneBanc RestaurantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C987ED962DCBA01B0052EC38 /* OneBanc Restaurant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C987EDBB2DCBA01E0052EC38 /* Build configuration list for PBXNativeTarget "OneBanc Restaurant" */;
+			buildPhases = (
+				C987ED932DCBA01B0052EC38 /* Sources */,
+				C987ED942DCBA01B0052EC38 /* Frameworks */,
+				C987ED952DCBA01B0052EC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C987ED992DCBA01B0052EC38 /* OneBanc Restaurant */,
+			);
+			name = "OneBanc Restaurant";
+			packageProductDependencies = (
+			);
+			productName = "OneBanc Restaurant";
+			productReference = C987ED972DCBA01B0052EC38 /* OneBanc Restaurant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C987EDA62DCBA01E0052EC38 /* OneBanc RestaurantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C987EDBE2DCBA01E0052EC38 /* Build configuration list for PBXNativeTarget "OneBanc RestaurantTests" */;
+			buildPhases = (
+				C987EDA32DCBA01E0052EC38 /* Sources */,
+				C987EDA42DCBA01E0052EC38 /* Frameworks */,
+				C987EDA52DCBA01E0052EC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C987EDA92DCBA01E0052EC38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C987EDAA2DCBA01E0052EC38 /* OneBanc RestaurantTests */,
+			);
+			name = "OneBanc RestaurantTests";
+			packageProductDependencies = (
+			);
+			productName = "OneBanc RestaurantTests";
+			productReference = C987EDA72DCBA01E0052EC38 /* OneBanc RestaurantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C987EDB02DCBA01E0052EC38 /* OneBanc RestaurantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C987EDC12DCBA01E0052EC38 /* Build configuration list for PBXNativeTarget "OneBanc RestaurantUITests" */;
+			buildPhases = (
+				C987EDAD2DCBA01E0052EC38 /* Sources */,
+				C987EDAE2DCBA01E0052EC38 /* Frameworks */,
+				C987EDAF2DCBA01E0052EC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C987EDB32DCBA01E0052EC38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C987EDB42DCBA01E0052EC38 /* OneBanc RestaurantUITests */,
+			);
+			name = "OneBanc RestaurantUITests";
+			packageProductDependencies = (
+			);
+			productName = "OneBanc RestaurantUITests";
+			productReference = C987EDB12DCBA01E0052EC38 /* OneBanc RestaurantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C987ED8F2DCBA01B0052EC38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C987ED962DCBA01B0052EC38 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C987EDA62DCBA01E0052EC38 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C987ED962DCBA01B0052EC38;
+					};
+					C987EDB02DCBA01E0052EC38 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C987ED962DCBA01B0052EC38;
+					};
+				};
+			};
+			buildConfigurationList = C987ED922DCBA01B0052EC38 /* Build configuration list for PBXProject "OneBanc Restaurant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C987ED8E2DCBA01B0052EC38;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C987ED982DCBA01B0052EC38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C987ED962DCBA01B0052EC38 /* OneBanc Restaurant */,
+				C987EDA62DCBA01E0052EC38 /* OneBanc RestaurantTests */,
+				C987EDB02DCBA01E0052EC38 /* OneBanc RestaurantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C987ED952DCBA01B0052EC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987EDA52DCBA01E0052EC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987EDAF2DCBA01E0052EC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C987ED932DCBA01B0052EC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987EDA32DCBA01E0052EC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C987EDAD2DCBA01E0052EC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C987EDA92DCBA01E0052EC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C987ED962DCBA01B0052EC38 /* OneBanc Restaurant */;
+			targetProxy = C987EDA82DCBA01E0052EC38 /* PBXContainerItemProxy */;
+		};
+		C987EDB32DCBA01E0052EC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C987ED962DCBA01B0052EC38 /* OneBanc Restaurant */;
+			targetProxy = C987EDB22DCBA01E0052EC38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C987EDB92DCBA01E0052EC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C987EDBA2DCBA01E0052EC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C987EDBC2DCBA01E0052EC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneBanc Restaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = 8597J745UW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.deepika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C987EDBD2DCBA01E0052EC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OneBanc Restaurant/Preview Content\"";
+				DEVELOPMENT_TEAM = 8597J745UW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.deepika;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C987EDBF2DCBA01E0052EC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7M6F9AL5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepakprajapati.OneBanc-RestaurantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneBanc Restaurant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneBanc Restaurant";
+			};
+			name = Debug;
+		};
+		C987EDC02DCBA01E0052EC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7M6F9AL5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepakprajapati.OneBanc-RestaurantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneBanc Restaurant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneBanc Restaurant";
+			};
+			name = Release;
+		};
+		C987EDC22DCBA01E0052EC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7M6F9AL5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepakprajapati.OneBanc-RestaurantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OneBanc Restaurant";
+			};
+			name = Debug;
+		};
+		C987EDC32DCBA01E0052EC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7M6F9AL5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deepakprajapati.OneBanc-RestaurantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OneBanc Restaurant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C987ED922DCBA01B0052EC38 /* Build configuration list for PBXProject "OneBanc Restaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C987EDB92DCBA01E0052EC38 /* Debug */,
+				C987EDBA2DCBA01E0052EC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C987EDBB2DCBA01E0052EC38 /* Build configuration list for PBXNativeTarget "OneBanc Restaurant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C987EDBC2DCBA01E0052EC38 /* Debug */,
+				C987EDBD2DCBA01E0052EC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C987EDBE2DCBA01E0052EC38 /* Build configuration list for PBXNativeTarget "OneBanc RestaurantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C987EDBF2DCBA01E0052EC38 /* Debug */,
+				C987EDC02DCBA01E0052EC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C987EDC12DCBA01E0052EC38 /* Build configuration list for PBXNativeTarget "OneBanc RestaurantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C987EDC22DCBA01E0052EC38 /* Debug */,
+				C987EDC32DCBA01E0052EC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C987ED8F2DCBA01B0052EC38 /* Project object */;
+}
